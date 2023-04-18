@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GEN-T</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<img src="Logo.png" alt="Logo" id="logo">
+
+<!-- Side Navigation -->
+<a href="Untitled-1.html" class="logout-btn">Log out</a>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>GEN-T WEB SITES</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">see all the data of carousel frome this website</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Our support</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>If you have any probleme contact one of our support</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Lahoucine: lahoucine.alahyane@student.hamk.fi</p>
+        <p>Fatemeh: fatemeh.rashidi@student.hamk.fi</p>
+        <p>bipin: bipin.acharya@student.hamk.fi</p>
+        
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-row w3-center w3-margin-top">
+    <div class="w3-third" style="margin-bottom: 5cm;">
+      <div class="w3-card w3-container" style="min-height: 460px;">
+        <h3>Rotation Data</h3>
+        <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size: 120px;"></i>
+        <p>Click to see all the data</p>
+        <button class="button button1"onClick="location.href='rotation.html'">Click</button>
+      </div>
+    </div>
+    <div class="w3-third" style="margin-bottom: 5cm;">
+      <div class="w3-card w3-container" style="min-height: 460px;">
+        <h3>Electricity Data</h3>
+        <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size: 120px;"></i>
+        <p>Click to see all the data</p>
+        <button class="button button1"onClick="location.href='electricity.html'">Click</button>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card w3-container" style="min-height: 460px;">
+        <h3>Speed Data</h3>
+        <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size: 120px;"></i>
+        <p>Click to see all the data</p>
+        <button class="button button1"onClick="location.href='speed.html'">Click</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  </div>
